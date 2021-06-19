@@ -1,3 +1,1 @@
-SELECT b.title
-FROM books b, books_subjects k, subjects s 
-WHERE k.book = b.id AND k.subject = s.id AND (s.name = "Technology" OR s.name = "Politics");
+select b.title from books b ,books_subjects k,subjects s where k.book=b.id and k.subject=s.id and (s.name="Technology" or s.name="Politics");

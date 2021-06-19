@@ -1,5 +1,2 @@
-DELETE from books_subjects 
-WHERE subject = 9;
-
-DELETE from subjects 
-WHERE name = "History";
+delete from books_subjects where subject=8;
+delete from subjects where name="History";
